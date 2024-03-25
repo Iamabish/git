@@ -1,0 +1,23 @@
+@font-face {
+    font-family: butter;
+    src: url(./buttermilk.woff);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #333;
+    font-family: butter;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-size: 2rem;
+}
